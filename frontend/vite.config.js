@@ -7,6 +7,7 @@ config();
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/OVM/",
   plugins: [react()],
   define: {
     'process.env': process.env
